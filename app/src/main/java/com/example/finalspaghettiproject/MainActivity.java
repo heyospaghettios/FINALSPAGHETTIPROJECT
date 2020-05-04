@@ -103,6 +103,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_Contact:
                 startActivity(new Intent(MainActivity.this, contactInfo.class));
 
+            case R.id.action_instruct:
+                startActivity(new Intent(MainActivity.this, instruct.class));
+
 
 
 

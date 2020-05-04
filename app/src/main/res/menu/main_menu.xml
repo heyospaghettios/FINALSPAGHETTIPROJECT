@@ -9,9 +9,9 @@
 
 
     <item
-        android:id="@+id/action_info"
+        android:id="@+id/action_instruct"
         android:icon="@android:drawable/ic_menu_info_details"
-        android:title="Info"
+        android:title="Instructions"
         app:showAsAction="always" />
 
     <item
