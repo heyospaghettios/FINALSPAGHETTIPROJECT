@@ -1,8 +1,5 @@
 package com.example.finalspaghettiproject;
 
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.ContentValues;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -17,6 +14,9 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.finalspaghettiproject.database.TaskdbHelper;
 import com.example.finalspaghettiproject.database.dbTasks;
@@ -99,19 +99,22 @@ public class MainActivity extends AppCompatActivity {
                         .setNegativeButton("Cancel", null)
                         .create();
                 dialog.show();
+                break;
 
             case R.id.action_Contact:
                 startActivity(new Intent(MainActivity.this, contactInfo.class));
+                break;
+
 
             case R.id.action_instruct:
                 startActivity(new Intent(MainActivity.this, instruct.class));
-
-
+                break;
 
 
             default:
                 return super.onOptionsItemSelected(item);
         }
+        return super.onOptionsItemSelected(item);
     }
 
     private void updateUI() {

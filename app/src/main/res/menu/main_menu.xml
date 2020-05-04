@@ -8,16 +8,18 @@
         app:showAsAction="always" />
 
 
-    <item
-        android:id="@+id/action_instruct"
-        android:icon="@android:drawable/ic_menu_info_details"
-        android:title="Instructions"
-        app:showAsAction="always" />
 
     <item
         android:id="@+id/action_Contact"
         android:icon="@android:drawable/ic_menu_directions"
         android:title="contact"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_instruct"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="instruct"
         app:showAsAction="always" />
 
 

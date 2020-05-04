@@ -1,10 +1,10 @@
 package com.example.finalspaghettiproject;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-public class contactInfo extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class contactInfo extends MainActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
