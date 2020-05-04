@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.ContentValues;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -98,6 +99,13 @@ public class MainActivity extends AppCompatActivity {
                         .setNegativeButton("Cancel", null)
                         .create();
                 dialog.show();
+
+            case R.id.action_Contact:
+                startActivity(new Intent(MainActivity.this, contactInfo.class));
+
+
+
+
             default:
                 return super.onOptionsItemSelected(item);
         }
